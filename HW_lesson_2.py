@@ -1,5 +1,5 @@
 import cv2
-#
+
 # image = cv2.imread('images/selfie.jpg')
 # image = cv2.resize(image, (image.shape[1] // 4,image.shape[0] // 4))
 # gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -22,4 +22,5 @@ cv2.imwrite('new_email.jpg', edges)
 
 cv2.imshow('Image', edges)
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
